@@ -19,6 +19,7 @@ class HomeController extends BaseController {
 	 *
 	 *@param null
 	 *@return void
+     *@throws This method doesn't throw any error.
 	 */
 	public function index()
 	{

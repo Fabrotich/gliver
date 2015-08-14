@@ -84,7 +84,7 @@ class Cookie
         if(isset($_COOKIE[$name])){
             //Clear both $_COOKIE and browser cookie
             setcookie($name, "", time()-3600, "/");
-            unset($_COOKIE['key']);
+            unset($_COOKIE[$name]);
         }
     }
 
@@ -102,6 +102,11 @@ class Cookie
 
         return $enabled;
     }
+
+    /**
+     *This method checks updates cookies
+     * @return boolean
+     */
 
 
 }

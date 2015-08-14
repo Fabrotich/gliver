@@ -10,9 +10,6 @@
  */
 
 use Helpers\View;
-use Models\UsersModel;
-
-use Helpers\Cookie;
 
 class HomeController extends BaseController {
 
@@ -32,7 +29,5 @@ class HomeController extends BaseController {
 		View::render('index', $data);
 
 	}
-
-	
 }
 

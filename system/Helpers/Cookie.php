@@ -47,11 +47,10 @@ class Cookie
      * @param bool|string $httponly Indicates whether the cookie is accessible over the HTTP protocol
      * @return void
      */
-    public static function set($name, $value = null, $time = 3600, $path = "/", $domain = "", $secure = true, $httponly = false)
+    public static function set($name, $value = "pple", $time = 3600, $path = "/", $domain = "", $secure = false, $httponly = true)
     {
         //Call native php setCookie function to set the cookies
-        setcookie($name, $value, $time, $path, $domain, $secure, $httponly);
-
+        setcookie($name, $value, time()+$time, $path, $domain, $secure, $httponly);
     }
 
     /**
@@ -64,8 +63,8 @@ class Cookie
     {
         //Check if cookie is set/exists
         if (!isset($_COOKIE[$name])) {
-            $exists = false;
-            return $exists;
+            //Return false if it doesn't exist
+            return false;
         } else {
             //return if the cookie is set/$exists is true
             return $_COOKIE[$name];
@@ -81,8 +80,12 @@ class Cookie
      */
     public static function delete($name)
     {
-        //Set the cookie expiry data to an hour ago inoreder to delete it
-        setcookie($name, "", time() - 3600);
+        //If a cookie exists delete it
+        if(isset($_COOKIE[$name])){
+            //Clear both $_COOKIE and browser cookie
+            setcookie($name, "", time()-3600, "/");
+            unset($_COOKIE['key']);
+        }
     }
 
     /**
@@ -94,6 +97,7 @@ class Cookie
         //set a test cookie
         setcookie("test_cookie", "test", time() + 3600, '/');
 
+//        check if test cookie was stored
         $enabled = (count($_COOKIE > 0)) ? true : false;
 
         return $enabled;

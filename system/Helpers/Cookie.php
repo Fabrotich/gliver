@@ -56,7 +56,7 @@ class Cookie
     /**
      * This method returns cookie data by name
      * @params string $value the value with which to search cookie data
-     * @param $name
+     * @param $name The name with which the cookie was stored
      * @return mixed the value stored in the cookie
      */
     public static function get($name)
@@ -105,6 +105,8 @@ class Cookie
 
     /**
      *This method checks updates cookies
+     *
+     * @param string
      * @return boolean
      */
 

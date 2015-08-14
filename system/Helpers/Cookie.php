@@ -47,10 +47,11 @@ class Cookie
      * @param bool|string $httponly Indicates whether the cookie is accessible over the HTTP protocol
      * @return void
      */
-    public static function set($name, $value = "pple", $time = 3600, $path = "/", $domain = "", $secure = false, $httponly = true)
+    public static function set($name, $value = "", $time = 3600, $path = "/", $domain = "", $secure = false, $httponly = true)
     {
         //Call native php setCookie function to set the cookies
         setcookie($name, $value, time()+$time, $path, $domain, $secure, $httponly);
+        echo self::get($name);
     }
 
     /**
@@ -104,11 +105,21 @@ class Cookie
     }
 
     /**
-     *This method checks updates cookies
+     *This method updates cookies
      *
-     * @param string
-     * @return boolean
+     * @param string $name The name of the cookie to be updated
+     * @param mixed $value The value of the cookie to be stored
+     * @param int $time The time the cookie expires should be supplied as number of seconds
+     * @param mixed $path The path on the server in which the cookie will be available on
+     * @param mixed $domain The domain that the cookie is available to
+     * @param bool|string $secure Indicates whether the cookie is transmitted over a secure HTTPS connection from the client.
+     * @param bool|string $httponly Indicates whether the cookie is accessible over the HTTP protocol
      */
+
+    public static function update($name, $value, $time = 3600, $path = "/", $domain = "", $secure = false, $httponly = true){
+        //Calls the native php 'setcookie' method to update the cookie
+        setcookie($name, $value, time()+$time, $path, $domain,$secure, $httponly);
+    }
 
 
 }

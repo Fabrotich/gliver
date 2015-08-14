@@ -70,7 +70,6 @@ class Cookie {
 
     /**
      *This method checks if cookies are enabled
-     *
      *@return boolean
      */
     public static function enabled(){

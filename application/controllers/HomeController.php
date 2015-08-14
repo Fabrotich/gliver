@@ -32,12 +32,6 @@ class HomeController extends BaseController {
 
 	}
 
-    public function cookie(){
-        $name = "Cookie";
-
-        Cookie::enabled($name);
-    }
-
 	
 }
 

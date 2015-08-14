@@ -27,7 +27,8 @@ class HomeController extends BaseController {
 
 		//get the ending date today
 		View::render('index', $data);
-
+        
 	}
+
 }
 

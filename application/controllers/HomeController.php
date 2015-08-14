@@ -10,7 +10,6 @@
  */
 
 use Helpers\View;
-use Models\UsersModel;
 
 class HomeController extends BaseController {
 
@@ -30,7 +29,5 @@ class HomeController extends BaseController {
 		View::render('index', $data);
 
 	}
-
-	
 }
 

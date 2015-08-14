@@ -1,0 +1,7 @@
+<b>E_NOTICE: </b>Undefined variable: test in <b>C:\wamp\www\gliver\application\controllers\HomeController.php</b> on line <b>40</b><br/>
+<b>E_WARNING: </b>Missing argument 4 for Helpers\Cookie::set(), called in C:\wamp\www\gliver\application\controllers\HomeController.php on line 40 and defined in <b>C:\wamp\www\gliver\system\Helpers\Cookie.php</b> on line <b>39</b><br/>
+<b>E_WARNING: </b>setcookie() expects parameter 3 to be long, string given in <b>C:\wamp\www\gliver\system\Helpers\Cookie.php</b> on line <b>41</b><br/>
+<b>E_NOTICE: </b>Use of undefined constant console - assumed 'console' in <b>C:\wamp\www\gliver\system\Helpers\Cookie.php</b> on line <b>42</b><br/>
+<b>E_NOTICE: </b>Undefined variable: exists in <b>C:\wamp\www\gliver\system\Helpers\Cookie.php</b> on line <b>55</b><br/>
+<b>E_PARSE: </b>syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in <b>C:\wamp\www\gliver\system\Helpers\Cookie.php</b> on line <b>54</b><br/>
+<b>E_PARSE: </b>syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in <b>C:\wamp\www\gliver\system\Helpers\Cookie.php</b> on line <b>54</b><br/>

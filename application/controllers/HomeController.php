@@ -12,6 +12,8 @@
 use Helpers\View;
 use Models\UsersModel;
 
+use Helpers\Cookie;
+
 class HomeController extends BaseController {
 
 	/**
@@ -29,6 +31,12 @@ class HomeController extends BaseController {
 		View::render('index', $data);
 
 	}
+
+    public function cookie(){
+        $name = "Cookie";
+
+        Cookie::enabled($name);
+    }
 
 	
 }

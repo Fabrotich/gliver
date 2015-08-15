@@ -31,15 +31,19 @@ class HomeController extends BaseController {
         
 	}
 
+    /**
+     *This method loads tests the cookie class
+     *
+     *@param null
+     *@return void
+     *@throws null This method doesn't throw any error.
+     */
     public function cookie(){
-        $number = 1;
-
-        Cookie:set($number);
-
-//        Cookie::set("Home", "Cookie");
-//        $cookieValue1 = Cookie::get("Home");
-////        $cookieValue2 = Cookie::get("Glivers");
-//        echo $cookieValue1;
+        $number = 22;
+        Cookie::set("Home", "play");
+        $cookieValue1 = Cookie::get("Home");
+//        $cookieValue2 = Cookie::get("Glivers");
+        echo $cookieValue1;
     }
 
 }

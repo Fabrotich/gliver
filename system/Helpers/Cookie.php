@@ -150,7 +150,7 @@ class Cookie
         //There is no cookie set
         else {
 
-            //Returns true the cookie is empty/not set
+            //Returns true because there is nothing to delete.
             return true;
 
         }

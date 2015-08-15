@@ -12,6 +12,8 @@
  * @version 1.0.1
  */
 
+use Helpers\Exceptions\HelperException;
+
 class Cookie
 {
 
@@ -49,19 +51,34 @@ class Cookie
      */
     public static function set($name, $value = "", $time = 3600, $path = "/", $domain = "", $secure = false, $httponly = true)
     {
-        //Call native php setCookie function to set the cookies
+        //Check for any errors in values passed to method
+        try {
+
+            //Check to ensure value for cookie name is a string
+            if (!is_string($name)) throw new HelperException('Cookie name should be a string');
+
+            //Check to ensure $time is an integer
+            if (!is_int($time)) throw new HelperException("Value should be an integer");
+
+            //Check to ensure the values of $secure and $httponly are booleans
+            if (!is_bool($secure) || !is_bool($httponly)) throw new HelperException("Value should be a boolean");
+
+        } catch (HelperException $error) {
+
+            //Display the error message
+            $error->showError();
+
+        }
+
+        //Call native php setcookie function to set the cookies
         setcookie($name, $value, time() + $time, $path, $domain, $secure, $httponly);
 
         //Checks if cookie is set
-        if ( isset($_COOKIE[$name]) )
-        {
+        if (isset($_COOKIE[$name])) {
 
             //Returns true if set
             return true;
-        }
-
-        else
-        {
+        } else {
 
             //Returns false if cookie failed to set
             return false;
@@ -77,17 +94,23 @@ class Cookie
      */
     public static function get($name)
     {
-        //Check if cookie is set
-        if ( ! isset($_COOKIE[$name]) )
-        {
-            //Return false if it cookie isn't set
-            return false;
+        //Check to ensure value for cookie name is a string
+        try {
 
+            if (!is_string($name)) throw new HelperException("Cookie name should be a string");
+
+        } catch (HelperException $error) {
+
+            $error->showError();
         }
 
-        //Cookie is set so return the value
-        else
-        {
+        //Check if cookie is set
+        if (!isset($_COOKIE[$name])) {
+            //Return false if cookie isn't set
+            return false;
+
+        } //Cookie is set so return the value
+        else {
             //Returns true
             return $_COOKIE[$name];
 
@@ -103,18 +126,26 @@ class Cookie
      */
     public static function delete($name)
     {
+
+        //Check to ensure value for cookie name is a string
+        try {
+
+            if (!is_string($name)) throw new HelperException("Cookie name should be a string");
+
+        } catch (HelperException $error) {
+            //Display error message
+            $error->showError();
+        }
+
         //If a cookie exists delete it
-        if (isset($_COOKIE[$name]))
-        {
+        if (isset($_COOKIE[$name])) {
             //Clear both $_COOKIE and browser cookie
             setcookie($name, "", time() - 3600, "/");
             unset($_COOKIE[$name]);
             return true;
 
-        }
-
-        //There is no cookie set
-        else{
+        } //There is no cookie set
+        else {
 
             //Returns false
             return false;
@@ -155,26 +186,29 @@ class Cookie
 
     public static function update($name, $value, $time = 3600, $path = "/", $domain = "", $secure = false, $httponly = true)
     {
+        //Check to ensure value for cookie name is a string
+        try {
+            if (!is_string($name)) throw new HelperException("Cookie name should be a string");
+        } catch (HelperException $error) {
+            //Display error message
+            $error->showError();
+        }
+
         //Calls the native php 'setcookie' method to update the cookie
         setcookie($name, $value, time() + $time, $path, $domain, $secure, $httponly);
 
         //Checks if cookie is updated
-        if ( isset($_COOKIE[$name]) )
-        {
+        if (isset($_COOKIE[$name])) {
 
             //Returns true if cookie is updated
             return true;
-        }
-
-        else
-        {
+        } else {
 
             //Returns false if cookie failed to update
             return false;
         }
 
     }
-
 
 
 }

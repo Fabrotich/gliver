@@ -83,3 +83,5 @@
 <b>E_WARNING: </b>include(C:\wamp\www\gliver\system/Exceptions/errorHide.php): failed to open stream: No such file or directory in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
 <b>E_WARNING: </b>include(C:\wamp\www\gliver\system/Exceptions/errorHide.php): failed to open stream: No such file or directory in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
 <b>E_WARNING: </b>include(C:\wamp\www\gliver\system/Exceptions/errorHide.php): failed to open stream: No such file or directory in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Call to undefined function Controllers\set() in <b>C:\wamp\www\gliver\application\controllers\HomeController.php</b> on line <b>37</b><br/>
+<b>E_NOTICE: </b>Undefined variable: cookieValue1 in <b>C:\wamp\www\gliver\application\controllers\HomeController.php</b> on line <b>39</b><br/>

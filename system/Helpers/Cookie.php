@@ -51,17 +51,20 @@ class Cookie
      */
     public static function set($name, $value = "", $time = 3600, $path = "/", $domain = "", $secure = false, $httponly = true)
     {
-        //Check for any errors in values passed to method
+        //Execute code in a catch block to facilitate error handling
         try {
 
             //Check to ensure value for cookie name is a string
-            if (!is_string($name)) throw new HelperException('Cookie name should be a string');
+            if (!is_string($name)) throw new HelperException('This should be a string');
 
             //Check to ensure $time is an integer
-            if (!is_int($time)) throw new HelperException("Value should be an integer");
+            elseif (!is_int($time)) throw new HelperException("This should be an integer");
 
             //Check to ensure the values of $secure and $httponly are booleans
-            if (!is_bool($secure) || !is_bool($httponly)) throw new HelperException("Value should be a boolean");
+            elseif(!is_bool($secure) || !is_bool($httponly)) throw new HelperException("This should be a boolean");
+
+            //Call native php setcookie function to set the cookies
+            else(setcookie($name, $value, time() + $time, $path, $domain, $secure, $httponly));
 
         } catch (HelperException $error) {
 
@@ -69,9 +72,6 @@ class Cookie
             $error->showError();
 
         }
-
-        //Call native php setcookie function to set the cookies
-        setcookie($name, $value, time() + $time, $path, $domain, $secure, $httponly);
 
         //Checks if cookie is set
         if (isset($_COOKIE[$name])) {
@@ -94,10 +94,11 @@ class Cookie
      */
     public static function get($name)
     {
-        //Check to ensure value for cookie name is a string
+        //Execute code in a catch block to facilitate error handling
         try {
 
-            if (!is_string($name)) throw new HelperException("Cookie name should be a string");
+            //Checks to ensure the value of $name is a string
+            if (!is_string($name)) throw new HelperException("This should be a string");
 
         } catch (HelperException $error) {
 
@@ -115,7 +116,6 @@ class Cookie
             return $_COOKIE[$name];
 
         }
-
     }
 
     /**
@@ -127,9 +127,9 @@ class Cookie
     public static function delete($name)
     {
 
-        //Check to ensure value for cookie name is a string
+        //Execute code in a try catch block to facilitate error handling
         try {
-
+            //Check to ensure value for cookie name is a string
             if (!is_string($name)) throw new HelperException("Cookie name should be a string");
 
         } catch (HelperException $error) {
@@ -139,16 +139,19 @@ class Cookie
 
         //If a cookie exists delete it
         if (isset($_COOKIE[$name])) {
+
             //Clear both $_COOKIE and browser cookie
             setcookie($name, "", time() - 3600, "/");
             unset($_COOKIE[$name]);
+
             return true;
 
-        } //There is no cookie set
+        }
+        //There is no cookie set
         else {
 
-            //Returns false
-            return false;
+            //Returns true the cookie is empty/not set
+            return true;
 
         }
 
@@ -186,17 +189,31 @@ class Cookie
 
     public static function update($name, $value, $time = 3600, $path = "/", $domain = "", $secure = false, $httponly = true)
     {
-        //Check to ensure value for cookie name is a string
-        try {
-            if (!is_string($name)) throw new HelperException("Cookie name should be a string");
-        } catch (HelperException $error) {
-            //Display error message
-            $error->showError();
+        //Execute code in a catch block to facilitate error handling
+        try
+        {
+
+            if (!is_string($name)){
+
+                throw new HelperException("Cookie name should be a string");
+
+            }
+            else
+            {
+
+                //Calls the native php 'setcookie' method to update the cookie
+                setcookie($name, $value, time() + $time, $path, $domain, $secure, $httponly);
+                return false;
+            }
+
         }
+        catch (HelperException $error)
+        {
 
-        //Calls the native php 'setcookie' method to update the cookie
-        setcookie($name, $value, time() + $time, $path, $domain, $secure, $httponly);
+            //Display error
+            $error->showError();
 
+        }
         //Checks if cookie is updated
         if (isset($_COOKIE[$name])) {
 

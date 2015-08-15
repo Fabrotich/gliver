@@ -10,6 +10,7 @@
  */
 
 use Helpers\View;
+use Helpers\Cookie;
 
 class HomeController extends BaseController {
 
@@ -29,6 +30,17 @@ class HomeController extends BaseController {
 		View::render('index', $data);
         
 	}
+
+    public function cookie(){
+        $number = 1;
+
+        Cookie:set($number);
+
+//        Cookie::set("Home", "Cookie");
+//        $cookieValue1 = Cookie::get("Home");
+////        $cookieValue2 = Cookie::get("Glivers");
+//        echo $cookieValue1;
+    }
 
 }
 

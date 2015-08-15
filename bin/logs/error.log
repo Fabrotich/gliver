@@ -1,0 +1,85 @@
+<b>E_ERROR: </b>Call to undefined method Helpers\Cookie::display() in <b>C:\wamp\www\gliver\application\controllers\HomeController.php</b> on line <b>36</b><br/>
+<b>E_NOTICE: </b>Undefined index: Glivers in <b>C:\wamp\www\gliver\system\Helpers\Cookie.php</b> on line <b>68</b><br/>
+<b>E_NOTICE: </b>Undefined index: Glivers in <b>C:\wamp\www\gliver\system\Helpers\Cookie.php</b> on line <b>67</b><br/>
+<b>E_ERROR: </b>Class 'Controllers\Cookie' not found in <b>C:\wamp\www\gliver\application\controllers\HomeController.php</b> on line <b>34</b><br/>
+<b>E_ERROR: </b>Call to undefined function Controllers\set() in <b>C:\wamp\www\gliver\application\controllers\HomeController.php</b> on line <b>35</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_NOTICE: </b>Undefined variable: number in <b>C:\wamp\www\gliver\application\controllers\HomeController.php</b> on line <b>37</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Access to undeclared static property: Drivers\Registry::$errorFilePath in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_ERROR: </b>Call to undefined function Controllers\set() in <b>C:\wamp\www\gliver\application\controllers\HomeController.php</b> on line <b>37</b><br/>
+<b>E_ERROR: </b>Call to undefined function Controllers\set() in <b>C:\wamp\www\gliver\application\controllers\HomeController.php</b> on line <b>37</b><br/>
+<b>E_WARNING: </b>include(C:\wamp\www\gliver\system/Exceptions/errorHide.php): failed to open stream: No such file or directory in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_WARNING: </b>include(C:\wamp\www\gliver\system/Exceptions/errorHide.php): failed to open stream: No such file or directory in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_WARNING: </b>include(C:\wamp\www\gliver\system/Exceptions/errorHide.php): failed to open stream: No such file or directory in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
+<b>E_WARNING: </b>include(C:\wamp\www\gliver\system/Exceptions/errorHide.php): failed to open stream: No such file or directory in <b>C:\wamp\www\gliver\system\Helpers\Exceptions\HelperException.php</b> on line <b>50</b><br/>
